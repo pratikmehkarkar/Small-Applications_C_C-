@@ -30,3 +30,32 @@ and return the results using call by address.
 Use a query loop to repeat the process, asking the user to select one or the other computation or "quit". D
 o the input and calculations using functions described above. Although the cop() function returns two results, 
 print only the result that the user requested.
+
+Sample Output :
+
+Cool It
+
+
+ Refrigerator (R), Heat Pump (H), or Quit (Q)? W
+         Error:  Please choose R, H, or Q.
+
+ Refrigerator (R), Heat Pump (H), or Quit (Q)? h
+ Temperature of cold reservoir (Celsius): -500
+         Error: Temperature must be >= -273.15.
+ Temperature of cold reservoir (Celsius): -273.15
+ Temperature of hot reservoir (Celsius): -400
+         Error: Temperature must be > -273.15.
+ Temperature of hot reservoir (Celsius): -273
+ The cop of the heat pump cycle = 1
+
+ Refrigerator (R), Heat Pump (H), or Quit (Q)? r
+ Temperature of cold reservoir (Celsius): 31.5
+ Temperature of hot reservoir (Celsius): 42
+ The cop of the refrigeration cycle = 29.0143
+
+ Refrigerator (R), Heat Pump (H), or Quit (Q)? H
+ Temperature of cold reservoir (Celsius): 31.5
+ Temperature of hot reservoir (Celsius): 42
+ The cop of the heat pump cycle = 30.0143
+
+ Refrigerator (R), Heat Pump (H), or Quit (Q)? Q
